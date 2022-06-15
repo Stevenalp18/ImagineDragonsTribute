@@ -1,0 +1,136 @@
+html{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tiro Telugu', serif;
+}
+  
+body{
+    margin: 0;
+    background: black;
+}
+  
+#title{
+    text-align: center;
+    font-size: 3vw;
+    width: 100%;
+    color: rgb(221, 221, 221);
+}
+  
+@media (max-width: 400px){
+    #title{
+      font-size: 4vw;
+    }
+}
+  
+#img-div{
+    margin: auto;
+    max-width: 100%;
+    background: black;
+    padding-top: 1vw;
+    padding-bottom: .4vh;
+  
+}
+  
+#image{
+    margin: auto;
+    width: 60vw;
+    max-width: 100%;
+    display: block;
+}
+  
+#img-caption{
+    color: rgb(221, 221, 221);
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2vw;
+    padding-top: 1rem;
+}
+  
+@media (max-width: 400px){
+    #img-caption{
+      font-size: 2vw;
+    }
+}
+  
+#tribute-info{
+    background: rgb(247, 247, 247);
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 1vw;
+}
+  
+.tribute-h{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 2vw;
+}
+  
+@media (max-width: 400px){
+    .tribute-h{
+      font-size: 3vw;
+    }
+}
+  
+@media (min-width: 800px){
+    .tribute-h{
+      font-size: 1.6vw;
+    }
+}
+  
+.list1{
+    margin: auto;
+    list-style-type: square;
+    margin-left: 1rem;
+    margin-top: 2%;
+}
+
+@media (min-width: 900px){
+    .list1{
+        margin-left: 20vw;
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 400px){
+    .list1{
+        margin-left: .5vw;
+    }
+}
+  
+@media (max-width: 400px){
+    .timeline-l{
+      font-size: 3vw;
+    }
+}
+  
+@media (min-width: 1600px){
+    .timeline-l{
+      font-size: 1.3vw;
+    }
+}
+
+#footer{
+    margin-top: 1.2vw;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+#list{
+    color: rgb(221, 221, 221);
+}
+
+a{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+.white{
+    color: rgb(221, 221, 221);
+}
+
+.center{
+    text-align: center;
+    padding-left: 2%;
+}
